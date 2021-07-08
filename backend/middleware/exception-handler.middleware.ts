@@ -1,4 +1,4 @@
-import {Context, Next} from 'koa';
+import { Context, Next } from 'koa';
 import { Exception } from '../common/exception';
 
 export const exceptionHandler = async (ctx: Context, next: Next) => {
