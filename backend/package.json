@@ -6,18 +6,26 @@
   "dependencies": {
     "@koa/cors": "^3.1.0",
     "@koa/router": "^10.0.0",
+    "@tadashi/koa-jwt-authz": "^1.1.0",
     "cerialize": "^0.1.18",
     "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.3",
     "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.1",
     "koa-logger": "^3.2.1",
-    "koa-mount": "^4.0.0"
+    "koa-mount": "^4.0.0",
+    "lokijs": "^1.5.12"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.4",
     "@types/koa": "^2.13.3",
     "@types/koa-logger": "^3.1.1",
     "@types/koa-mount": "^4.0.0",
     "@types/koa__cors": "^3.0.2",
     "@types/koa__router": "^8.0.4",
+    "@types/lokijs": "^1.5.4",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.30.0",
@@ -32,10 +40,11 @@
     "koa-helmet": "^6.1.0",
     "nodemon": "^2.0.9",
     "prettier": "^2.3.2",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
   },
   "scripts": {
-    "start": "node index.ts",
+    "start": "ts-node index.ts",
     "dev": "nodemon index.ts"
   }
 }
