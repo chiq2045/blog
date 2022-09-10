@@ -1,0 +1,14 @@
+{
+    "id": "631bf32414dd87d5d7f13ea2",
+    "roles": [
+        {
+            "name": "denyAllAccess",
+            "apply_when": {},
+            "read": false,
+            "write": false,
+            "insert": false,
+            "delete": false,
+            "search": false
+        }
+    ]
+}
